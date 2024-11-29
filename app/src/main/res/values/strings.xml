@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="title">Title</string>
+    <string name="play">Play</string>
+    <string name="imageDesc">Image</string>
+    <string name="appHeading">Animals:</string>
+</resources>

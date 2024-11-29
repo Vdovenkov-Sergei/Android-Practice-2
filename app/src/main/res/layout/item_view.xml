@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:id="@+id/imageView"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/imageDesc" />
+
+    <RelativeLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_margin="@dimen/margin" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/item_text_size"
+            android:text="@string/title"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/play"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/item_text_size" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delim_height"
+        android:layout_below="@id/info"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/delimiter"/>
+
+</RelativeLayout>
