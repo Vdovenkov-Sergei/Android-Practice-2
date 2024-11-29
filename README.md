@@ -6,4 +6,6 @@ Write an application that works with `RecyclerView`. Each RecyclerView element m
 
 ## Screen
 
+This version of the application is written in **Java**
+
 <img src="images/screen.png" width="200" height="444" alt="">
